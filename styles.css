@@ -30,8 +30,8 @@ body{
     box-sizing: border-box;
     font-family: sans-serif;
     position: relative;
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 450px;
     margin: 20px;
 }
 
@@ -82,6 +82,8 @@ body{
     justify-content: space-between;
     text-align: center;
     box-shadow: 0 5px 10 px #000;
+    width: 400px;
+    height: 450px;
 }
 
 .card .back .link{
@@ -106,8 +108,12 @@ body{
 
 .card:hover .front{
     transform: perspective(600px) rotateY(180deg);
+    width: 400px;
+    height: 450px;
 }
 
 .card:hover .back{
     transform: perspective(600px) rotateY(360deg);
+    width: 400px;
+    height: 450px;
 }
